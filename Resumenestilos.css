@@ -1,0 +1,43 @@
+body{
+    background-color: #000000;
+    font-family: Montserrat;
+    color:aliceblue;
+    font-size: 10px;
+    
+}
+
+h1 {font-size: 4em;
+    text-shadow: 0px 0px 25px #ffff51;
+    text-align: center;
+    margin-bottom: 20px;
+    
+
+}
+section {
+    width: 75%;
+    height: 550px;
+    margin: auto;
+    border:5px solid #ffff51;
+    padding: 15px;
+    box-shadow: 0px 0px 25px #ffff51;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+p {color: #ffff51;
+    font-size: 2.5em;
+    text-align:justify ;
+
+}
+
+image{
+    margin: auto;
+
+
+}
+
+
+
+
+

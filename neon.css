@@ -6,6 +6,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-size: 10px;
+    font-family: Montserrat;
 
 }
 
@@ -23,17 +24,31 @@ div{
     
 }
 #Titulo{
-    color:  #00ffff;
-    text-decoration: none;
-    font-size:4em;
-    text-shadow:0px 0px 20px #00ffff;
-    font-weight: 600;
+    position: absolute;
+    top: 25%; /* Ajusta la posición vertical */
+    left: 12%; /* Ajusta la posición horizontal */
+    transform: translate(-50%, -50%) rotate(27deg); /* Rotación de 45 grados */
+    font-size: 3.2rem;
+    color: #3bfaf0; /* Color neón verde */
+    text-shadow: 0 0 30px #3bfaf0, 0 0 40px #3bfaf0, 0 0 50px #3bfaf0;
+    white-space: nowrap; /* Evita que el texto se quiebre */
 }
+#Titulo1{
+    position: absolute;
+    top: 45%; /* Ajusta la posición vertical */
+    left: 12%; /* Ajusta la posición horizontal */
+    transform: translate(-50%, -50%) rotate(20deg); /* Rotación de 45 grados */
+    font-size: 3.2rem;
+    color: #fffb00; /* Color neón verde */
+    text-shadow: 0 0 10px #fffb00, 0 0 20px #fffb00, 0 0 30px #fffb00;
+    white-space: nowrap; /* Evita que el texto se quiebre */
+}
+
 #a1{
     position: absolute;
-    top: 10%; /* Ajusta la posición vertical */
-    left: 10%; /* Ajusta la posición horizontal */
-    transform: translate(-50%, -50%) rotate(29deg); /* Rotación de 45 grados */
+    top: 30%; /* Ajusta la posición vertical */
+    left: 85%; /* Ajusta la posición horizontal */
+    transform: translate(-50%, -50%) rotate(330deg); /* Rotación de 45 grados */
     font-size: 2rem;
     color: #00ff00; /* Color neón verde */
     text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
@@ -43,8 +58,8 @@ div{
 #a2{
     position: absolute;
     top: 40%; /* Ajusta la posición vertical */
-    left: 10%; /* Ajusta la posición horizontal */
-    transform: translate(-50%, -50%) rotate(15deg); /* Rotación de 45 grados */
+    left: 90%; /* Ajusta la posición horizontal */
+    transform: translate(-50%, -50%) rotate(336deg); /* Rotación de 45 grados */
     font-size: 2rem;
     color: #00ff00; /* Color neón verde */
     text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
