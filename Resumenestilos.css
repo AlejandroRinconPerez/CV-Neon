@@ -1,3 +1,10 @@
+.root{
+    --colo1:#4fc3dc;
+    --colo2:#ff2d75;
+    
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -6,29 +13,87 @@
 
 body{
     min-height:100vh;
-    background:#0c192c ;
+    background:#ffffff ; 
+    /* #0c192c */
 
 }
 .container{ 
-    position: relative;
+    position:relative;
     width: 100%;
     height: 100vh;
     overflow: hidden;
+    background-size: cover;
+
+    
 }
 .burbujas{
     position: relative;
     display: flex;
+    z-index: -1;
 }
 
 .burbu_spam {
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background: #4fc3dc;
-
+    margin:0 3px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #4fc3dc44, 0 0 50px #4fc3dc, 0 0 50px  #4fc3dc; 
+    animation: animate 15s linear infinite; 
+    animation-duration: calc(90s / var(--i));
 }
-strong {
-    color: blue; 
-    font-size: 20px; 
-    font-weight: bold;
+.burbu_spam1 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: #77f700;
+    margin:0 3px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #77f70044, 0 0 50px #77f700, 0 0 50px  #77f700; 
+    animation: animate 15s linear infinite; 
+    animation-duration: calc(80s / var(--i));
+}
+.burbu_spam3{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: #ff2d75;
+    box-shadow: 0 0 0 10px #ff2d7544, 
+    0 0 50px #ff2d75, 
+    0 0 50px  #ff2d75;
+    border-radius: 50%;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(70s / var(--i));
+}
+.burbu_spam4{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: #ff2ddc;
+    box-shadow: 0 0 0 10px #ff2ddc60, 
+    0 0 50px #ff2ddc, 
+    0 0 50px  #ff2ddc;
+    border-radius: 50%;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(60s / var(--i));
+}
+
+
+@keyframes animate{
+    0%{
+        transform:translateY(100vh)scale(0);
+    }
+    100%{
+        transform: translateY(-10vh)scale(2);
+    }
+}
+
+
+header{
+    width: 80%;
+    background-color: #0c192c;
+    position:absolute;
+    display:inline-block;
+   
 }
