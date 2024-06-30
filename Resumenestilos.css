@@ -201,12 +201,12 @@ h3{
 
 .resume{
     width: 80%;
-    border: 1px solid #0c192c;
-    box-shadow: 0 0 20px #3f526e ;
+    border: 1px solid #0c192c50;
+    box-shadow:0 0 0 10px #04054244, 0 0 50px #040542, 0 0 50px  #040542; 
     border-radius: 10px;
     display: flex;
     justify-content:space-between;
-    background-color: #121e30;
+    background-color: #121e3080;
     
 
 }
