@@ -1,5 +1,5 @@
 body{
-    background-image: url(./Fotos/Diagonal.jpg);
+    background-image: url(https://media.istockphoto.com/id/457551271/es/foto/pared-de-ladrillos.webp?b=1&s=170667a&w=0&k=20&c=_ZAIZQyvKDxbGKIJG9z1bBoPQmn-9OR3d2cotAmDtR0=);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,10 +22,10 @@ div{
 }
 #Titulo{
     position: absolute;
-    top: 45%; /* Ajusta la posición vertical */
-    left: 12.3%; /* Ajusta la posición horizontal */
+    top: 19%; /* Ajusta la posición vertical */
+    left: 50%; /* Ajusta la posición horizontal */
     transform: translate(-50%, -50%) rotate(0deg); /* Rotación de 45 grados */
-    font-size: 4rem;
+    font-size: 5rem;
     color: #0ff0fc; /* Color neón verde */
     text-shadow: 0 0 0px #ffffff, 0 0 40px #0ff0fc, 0 0 50px #0ff0fc;
     white-space: nowrap; /* Evita que el texto se quiebre */
@@ -34,29 +34,14 @@ div{
     text-shadow: 0 0 5px #ffffff, 0 0 40px #0ff0fc, 0 0 50px #0ff0fc;   
 }
 
-
-#Titulo2{
-    position: absolute;
-    top: 52%; /* Ajusta la posición vertical */
-    left: 12%; /* Ajusta la posición horizontal */
-    transform: translate(-50%, -50%) rotate(0deg); /* Rotación de 45 grados */
-    font-size: 4rem;
-    color: #0ff0fc; /* Color neón verde */
-    text-shadow: 0 0 0px #ffffff, 0 0 250px #0ff0fc, 0 0 30px #0ff0fc;
-    white-space: nowrap; /* Evita que el texto se quiebre */
-}
-
-#Titulo2:hover{
-    text-shadow: 0 0 5px #ffffff, 0 0 40px #0ff0fc, 0 0 50px #0ff0fc;   
-}
 #Titulo1{
     position: absolute;
-    top: 7%; /* Ajusta la posición vertical */
-    left: 12%; /* Ajusta la posición horizontal */
+    top: 2%; /* Ajusta la posición vertical */
+    left: 50%; /* Ajusta la posición horizontal */
     transform: translate(-50%, -50%) rotate(0deg); /* Rotación de 45 grados */
-    font-size: 5.5rem;
-    color: #fffb00; /* Color neón verde */
-    text-shadow: 0 0 0px #ffffff, 0 0 20px #fffb00, 0 0 30px #fffb00;
+    font-size: 7rem;
+    color: #6c2dff; /* Color neón verde */
+    text-shadow: 0 0 0px #ffffff, 0 0 20px #6c2dff, 0 0 30px #6c2dff;
     white-space: nowrap; /* Evita que el texto se quiebre */
 }
 #Titulo1:hover{
@@ -64,83 +49,71 @@ div{
 }
 
 
-#Titulo3{
-    position: absolute;
-    top: 17%; /* Ajusta la posición vertical */
-    left: 12%; /* Ajusta la posición horizontal */
-    transform: translate(-50%, -50%) rotate(0deg); /* Rotación de 45 grados */
-    font-size: 5.5rem;
-    color: #fffb00; /* Color neón verde */
-    text-shadow: 0 0 0px #ffffff, 0 0 20px #fffb00, 0 0 30px #fffb00;
-    white-space: nowrap; /* Evita que el texto se quiebre */
-}
-#Titulo3:hover{
-    text-shadow: 0 0 5px #ffffff, 0 0 20px #fffb00, 0 0 30px #fffb00;
-}
-
 #a1{
     position: absolute;
-    top: 20%; /* Ajusta la posición vertical */
-    left: 90%; /* Ajusta la posición horizontal */
+    text-decoration: none;
+    top: 45%; /* Ajusta la posición vertical */
+    left: 50%; /* Ajusta la posición horizontal */
     transform: translate(-50%, -50%) rotate(0deg); /* Rotación de 45 grados */
     font-size: 5rem;
     color: #ccff00; /* Color neón verde */
-    text-shadow: 0 0 0px #ffffff, 0 0 20px #ccff00, 0 0 30px #ccff00;
+    text-shadow: 0 0 0px #ffffff, 0 0 10px #ccff00, 0 0 10px #ccff00;
     white-space: nowrap; /* Evita que el texto se quiebre */
 }
 #a1:hover{
-    left: 90%;
     font-size: 5.3rem;
     text-shadow: 0 0 3px #ffffff, 0 0 20px #ccff00, 0 0 30px #ccff00;
 }
 
 #a2{
     position: absolute;
-    top: 40%; /* Ajusta la posición vertical */
-    left: 87%; /* Ajusta la posición horizontal */
+    text-decoration: none;
+    top: 60%; /* Ajusta la posición vertical */
+    left: 30%; /* Ajusta la posición horizontal */
     transform: translate(-50%, -50%) rotate(0deg); /* Rotación de 45 grados */
-    font-size: 3rem;
+    font-size: 4rem;
     color: #ff33ee; /* Color neón verde */
     text-shadow: 0 0 0px #ffffff, 0 0 20px #ff33ee, 0 0 30px #ff33ee;
     white-space: nowrap; /* Evita que el texto se quiebre */
 }
 #a2:hover{
-    left: 85%;
-    font-size: 3.5rem;
+    font-size: 5rem;
     text-shadow: 0 0 2px #ffffff, 0 0 20px #ff33ee, 0 0 30px #ff33ee;
 
 }
 #a3{
     position: absolute;
-    top: 50%; /* Ajusta la posición vertical */
-    left: 92%; /* Ajusta la posición horizontal */
+    text-decoration: none;
+    top: 60%; /* Ajusta la posición vertical */
+    left: 70%; /* Ajusta la posición horizontal */
     transform: translate(-50%, -50%) rotate(0deg); /* Rotación de 45 grados */
-    font-size: 3rem;
+    font-size: 4rem;
     color: #a760ff; /* Color neón verde */
     text-shadow: 0 0 2px #ffffff, 0 0 20px #a760ff, 0 0 30px #a760ff;
     white-space: nowrap; /* Evita que el texto se quiebre */
 }
-#a1:hover{
-    left: 90%;
+#a3:hover{
+   
     font-size: 5.3rem;
-    text-shadow: 0 0 2px #ffffff, 0 0 20px #ccff00, 0 0 30px #ccff00;
+    text-shadow: 0 0 2px #ffffff, 0 0 20px #a760ff, 0 0 30px #a760ff;
 
 
 }
 #a4{
     position: absolute;
-    top: 60%; /* Ajusta la posición vertical */
-    left: 92%; /* Ajusta la posición horizontal */
+    text-decoration: none;
+    top: 75%; /* Ajusta la posición vertical */
+    left: 30%; /* Ajusta la posición horizontal */
     transform: translate(-50%, -50%) rotate(0deg); /* Rotación de 45 grados */
-    font-size: 3rem;
+    font-size: 4rem;
     color: #ff3403; /* Color neón verde */
     text-shadow: 0 0 2px #ffffff, 0 0 20px #ff3403, 0 0 30px #ff3403;
     white-space: nowrap; /* Evita que el texto se quiebre */
 }
-#a1:hover{
-    left: 90%;
+#a4:hover{
+   
     font-size: 5.3rem;
-    text-shadow: 0 0 2px #ffffff, 0 0 20px #ccff00, 0 0 30px #ccff00;
+    text-shadow: 0 0 2px #ffffff, 0 0 20px #ff3403, 0 0 30px #ff3403;
 
 
 }

@@ -12,18 +12,21 @@
 }
 
 body{
-    min-height:100vh;
-    background:#0c192c; 
+    min-height:100%;
+    background:#000000; 
     font-size: 10px;
     /* #0c192c */
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+
 
 }
 .container{ 
     position:relative;
     width: 100%;
-    height: 100vh;
+    height: auto;
     overflow: hidden;
-    background-size: cover;
+    text-align: center;
 
     
 }
@@ -50,10 +53,10 @@ body{
     position: relative;
     width: 20px;
     height: 20px;
-    background: #77f700;
+    background: #040542;
     margin:0 3px;
     border-radius: 50%;
-    box-shadow: 0 0 0 10px #77f70044, 0 0 50px #77f700, 0 0 50px  #77f700; 
+    box-shadow: 0 0 0 10px #04054244, 0 0 50px #040542, 0 0 50px  #040542; 
     animation: animate 15s linear infinite; 
     animation-duration: calc(80s / var(--i));
 }
@@ -61,10 +64,10 @@ body{
     position: relative;
     width: 20px;
     height: 20px;
-    background: #ff2d75;
-    box-shadow: 0 0 0 10px #ff2d7544, 
-    0 0 50px #ff2d75, 
-    0 0 50px  #ff2d75;
+    background: #6c2dff;
+    box-shadow: 0 0 0 10px #6c2dff40, 
+    0 0 50px #6c2dff, 
+    0 0 50px  #6c2dff;
     border-radius: 50%;
     animation: animate 15s linear infinite;
     animation-duration: calc(70s / var(--i));
@@ -73,10 +76,10 @@ body{
     position: relative;
     width: 20px;
     height: 20px;
-    background: #ff2ddc;
-    box-shadow: 0 0 0 10px #ff2ddc60, 
-    0 0 50px #ff2ddc, 
-    0 0 50px  #ff2ddc;
+    background: #11755c;
+    box-shadow: 0 0 0 10px #11755c60, 
+    0 0 50px #11755c, 
+    0 0 50px  #11755c;
     border-radius: 50%;
     animation: animate 15s linear infinite;
     animation-duration: calc(60s / var(--i));
@@ -96,13 +99,13 @@ body{
 header{
     width: 100%;
     background-color: transparent;
-    z-index:1;
+    z-index:10;
     position: fixed;
     top: 0;
 }
 
 .nav{
-   background-color:#3f4f6830;
+   background-color:hsl(213, 16%, 11%);
  
 
 }
@@ -114,25 +117,195 @@ header{
 
 .navlist{
     display: inline-block;
-    padding: 2px 8px;
+    padding: 2px 10px;
     border-radius: 5px;
 }
 .navlist:hover{
-    background-color:#64748d30;
+    background-color:#64748d;
 
 }
 
 
 .navlink{
-    font-size: 1.2em;
+    font-size: 3.5em;
     text-decoration: none;
     color: #ffffff;
     border-radius: 5px;
+    color: #9ea8b1;
+    font-family:Neon;
+    white-space: nowrap;
+    text-shadow: 0 0 10px #23346d46, 0 0 40px #6c2dff, 0 0 30px #6c2dff;
+}
+
+
+
+.grid{
+    display: grid;
+    grid-template-areas: 
+    "titulo"
+    "resumen"
+    "experiencia"
+    "educacion"
+    "habilidades"
+    "Competencias";
+    text-align: center;
+}
+.Titulo{
+    grid-area: titulo;
+    border: 15px solid transparent;
+    
+    
+
+}
+h1{
+    font-size: 8em;
+    color: #000000;
+    font-family:Neon;
+    white-space: nowrap;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #6c2dff, 0 0 30px #6c2dff;
+   
+
+}
+h2{
+    font-size: 6em;
+    color: #000000;
+    font-family:Neon;
+    white-space: nowrap;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #6c2dff, 0 0 30px #6c2dff;
+
+}
+
+h3{
+    font-size: 6em;
+    color: #000000;
+    font-family:Neon;
+    white-space: nowrap;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #6c2dff, 0 0 30px #6c2dff;
+    padding: 5px 0;
+    margin: 5px;
+    
 
 
 }
 
 
 
+.containerresume{
+    grid-area: resumen;
+    display: flex;
+    justify-content: center;
+    border: 10px;
 
+
+}
+
+.resume{
+    width: 80%;
+    border: 1px solid #0c192c;
+    box-shadow: 0 0 20px #3f526e ;
+    border-radius: 10px;
+    display: flex;
+    justify-content:space-between;
+    background-color: #121e30;
+    
+
+}
+.resumeimage{
+    border: none;
+    width: 30%;
+
+}
+.resumetext{
+    color: #ffffff;
+    font-size: 2.1em;
+    text-align: center;
+    padding: 15px 5px;
+    align-content: center;
+}
+
+
+/* Zona de Experencia */
+
+
+.container_expe{
+    grid-area: experiencia;
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+    "head head head"
+    "exp1 exp2 exp3"
+
+
+
+
+}
+.Tituloexp{
+    grid-area: head;
+    padding: 5px;
+
+
+}
+
+
+.subtitulo{
+    font-size: 2em;
+    color: #ffffff;
+    
+}
+em{font-weight: bolder;
+
+}
+
+.item_exp{
+    color: #ffffff;
+    font-size: 1.5em;
+    display: block;
+    text-align: left;
+
+}
+.cont_exp1{
+    grid-area:exp1;
+    padding: 5px;
+    width: 90%;
+    border: 1px solid #0c192c;
+    box-shadow: 0 0 20px #3f526e ;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #121e30;
+    height: 400px;
+
+}
+.cont_exp2{
+    padding: 5px;
+    grid-area:exp2;
+    width: 90%;
+    border: 1px solid #0c192c;
+    box-shadow: 0 0 20px #3f526e ;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #121e30;
+    height: 400px;
+}
+
+.cont_exp3{
+    grid-area:exp3;
+    padding: 5px;
+    width: 90%;
+    border: 1px solid #0c192c;
+    box-shadow: 0 0 20px #3f526e ;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #121e30;
+    height: 400px;
+
+}
+
+/* logotipos */
+
+.image_hab{
+    background-image: url(https://media.istockphoto.com/id/457551271/es/foto/pared-de-ladrillos.webp?b=1&s=170667a&w=0&k=20&c=_ZAIZQyvKDxbGKIJG9z1bBoPQmn-9OR3d2cotAmDtR0=);
+
+    background:cover;
+}
 
