@@ -13,7 +13,8 @@
 
 body{
     min-height:100vh;
-    background:#ffffff ; 
+    background:#0c192c; 
+    font-size: 10px;
     /* #0c192c */
 
 }
@@ -30,6 +31,8 @@ body{
     position: relative;
     display: flex;
     z-index: -1;
+    padding: 0;
+    margin: 0;
 }
 
 .burbu_spam {
@@ -91,9 +94,45 @@ body{
 
 
 header{
-    width: 80%;
-    background-color: #0c192c;
-    position:absolute;
-    display:inline-block;
-   
+    width: 100%;
+    background-color: transparent;
+    z-index:1;
+    position: fixed;
+    top: 0;
 }
+
+.nav{
+   background-color:#3f4f6830;
+ 
+
+}
+.navlistmother{
+    margin:0;
+    text-align: center;
+
+}
+
+.navlist{
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+.navlist:hover{
+    background-color:#64748d30;
+
+}
+
+
+.navlink{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+
+
+}
+
+
+
+
+
