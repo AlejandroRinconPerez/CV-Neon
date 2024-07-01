@@ -145,8 +145,9 @@ header{
     "titulo"
     "resumen"
     "experiencia"
-    "educacion"
     "habilidades"
+    "educacion"
+    "Proyectos"
     "Competencias";
     text-align: center;
 }
@@ -159,10 +160,10 @@ header{
 }
 h1{
     font-size: 8em;
-    color: #000000;
+    color:#000000;
     font-family:Neon;
     white-space: nowrap;
-    text-shadow: 0 0 10px #ffffff, 0 0 20px #6c2dff, 0 0 30px #6c2dff;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #3357f8cb, 0 0 30px #3357f8cb;
    
 
 }
@@ -171,7 +172,7 @@ h2{
     color: #000000;
     font-family:Neon;
     white-space: nowrap;
-    text-shadow: 0 0 10px #ffffff, 0 0 20px #6c2dff, 0 0 30px #6c2dff;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #3357f8cb, 0 0 30px #3357f8cb;
 
 }
 
@@ -180,8 +181,8 @@ h3{
     color: #000000;
     font-family:Neon;
     white-space: nowrap;
-    text-shadow: 0 0 10px #ffffff, 0 0 20px #6c2dff, 0 0 30px #6c2dff;
-    padding: 5px 0;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #3357f8cb, 0 0 30px #3357f8cb;
+    margin:  25px 0 25px 0;
     margin: 5px;
     
 
@@ -243,13 +244,15 @@ h3{
 .Tituloexp{
     grid-area: head;
     padding: 5px;
+    margin:  25px 0 25px 0;
+    
 
 
 }
 
 
 .subtitulo{
-    font-size: 2em;
+    font-size: 3em;
     color: #ffffff;
     
 }
@@ -262,6 +265,7 @@ em{font-weight: bolder;
     font-size: 1.5em;
     display: block;
     text-align: left;
+    padding: 6px;
 
 }
 .cont_exp1{
@@ -269,11 +273,11 @@ em{font-weight: bolder;
     padding: 5px;
     width: 90%;
     border: 1px solid #0c192c;
-    box-shadow: 0 0 20px #3f526e ;
+    box-shadow:0 0 0 10px #04054244, 0 0 50px #040542, 0 0 50px  #040542; 
     border-radius: 10px;
     margin: auto;
-    background-color: #121e30;
-    height: 400px;
+    background: linear-gradient(to bottom, #040542, #04054244);
+    height: 410px;
 
 }
 .cont_exp2{
@@ -281,22 +285,22 @@ em{font-weight: bolder;
     grid-area:exp2;
     width: 90%;
     border: 1px solid #0c192c;
-    box-shadow: 0 0 20px #3f526e ;
+    box-shadow:0 0 0 10px #04054244, 0 0 50px #040542, 0 0 50px  #040542; 
     border-radius: 10px;
     margin: auto;
-    background-color: #121e30;
-    height: 400px;
+    background: linear-gradient(to bottom, #040542, #04054244);
+    height: 430px;
 }
 
 .cont_exp3{
     grid-area:exp3;
     padding: 5px;
     width: 90%;
-    border: 1px solid #0c192c;
-    box-shadow: 0 0 20px #3f526e ;
+    border: 1px solid #01060e;
+    box-shadow:0 0 0 10px #04054244, 0 0 50px #040542, 0 0 50px  #040542; 
     border-radius: 10px;
     margin: auto;
-    background-color: #121e30;
+    background: linear-gradient(to bottom, #040542, #04054244);
     height: 400px;
 
 }
@@ -305,7 +309,206 @@ em{font-weight: bolder;
 
 .image_hab{
     background-image: url(https://media.istockphoto.com/id/457551271/es/foto/pared-de-ladrillos.webp?b=1&s=170667a&w=0&k=20&c=_ZAIZQyvKDxbGKIJG9z1bBoPQmn-9OR3d2cotAmDtR0=);
-
     background:cover;
+    padding: 0;
+    grid-area:habilidades ;
 }
 
+
+/* Estudios */
+
+.img_est{
+    width: 40%;
+}
+#img{
+    width: 35%;
+}
+
+.container_estu{
+    grid-area:educacion ;
+    display: grid;
+    grid-template-areas:
+    "head head head"
+    "est1 est2 est3";
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    
+    
+}
+
+.formacion{
+    grid-area: head;
+    padding: 20px 0 20px 0;
+   
+
+
+}
+
+
+.cont_est1{
+    grid-area:est1;
+    padding: 5px;
+    width: 90%;
+    border: 1px solid #01060e;
+    box-shadow:0 0 0 10px #04054244, 0 0 50px #040542, 0 0 50px  #040542; 
+    border-radius: 10px;
+    margin: auto;
+    background: linear-gradient(to bottom, #040542, #04054244);
+    
+
+
+}
+.cont_est2{
+    grid-area:est2;
+    padding: 5px;
+    width: 90%;
+    border: 1px solid #01060e;
+    box-shadow:0 0 0 10px #04054244, 0 0 50px #040542, 0 0 50px  #040542; 
+    border-radius: 10px;
+    margin: auto;
+    background: linear-gradient(to bottom, #040542, #04054244);
+
+    
+}
+
+.cont_est3{
+    grid-area:est3;
+    padding: 5px;
+    width: 90%;
+    border: 1px solid #01060e;
+    box-shadow:0 0 0 10px #04054244, 0 0 50px #040542, 0 0 50px  #040542; 
+    border-radius: 10px;
+    margin: auto;
+    
+    background: linear-gradient(to bottom, #040542, #04054244);
+
+    
+}
+.subtituloes{
+    color: #ffffff;
+    font-size: 3em;
+    text-align: center;
+
+}
+.estext{
+    color: #ffffff;
+    font-size: 2.5em;
+    text-align: center;
+
+
+}
+
+/* proyecto */
+
+.proyectos{
+    margin: 30px 0px 15px 0px;
+
+}
+
+.cont_pro{
+    grid-area:Proyectos;
+    
+}
+
+.proyec_div{
+    padding: 5px;
+    width: 90%;
+    border: 1px solid #01060e;
+    box-shadow:0 0 0 10px #04054244, 0 0 50px #040542, 0 0 50px  #040542; 
+    border-radius: 10px;
+    margin: auto;
+    background: linear-gradient(to bottom, #04054244, #040542);
+}
+
+.textproyectos{
+    text-align: justify;
+    padding: 5px 30px;
+
+}
+.Pyton2{
+    filter:drop-shadow(0 0 0 500px #ffffff44, 0 0 50px #040542, 0 0 100px  #040542);
+    padding: 1px 0px;
+    
+}
+
+.prouectp_python{
+    display: grid;
+    grid-template-areas: 
+    "py1 py2 py3"
+    "py4 py5 py6";
+    margin: auto;
+    
+
+    flex-wrap: wrap;
+}
+.Pyimeg{
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 0 500px #ffffff);
+    
+    
+
+}
+.py1{
+    grid-area: py1;
+    
+
+}
+.py2{
+    grid-area: py2;
+
+}
+.py3{
+    grid-area: py3;
+ 
+}
+.py4{
+    grid-area: py4;
+
+}
+.py5{
+    grid-area: py5; 
+}
+.py6{
+    grid-area: py6;
+
+}
+
+/* footer */
+
+.footer{
+    width: 100%;
+    background: linear-gradient(to bottom, #2528cf44, #040542);
+    margin: 40px 0px 0px 0px;
+
+}
+.final{
+    width: 100%;
+    background: linear-gradient(to bottom, #2528cf44, #040542);
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+.menu-elem{ 
+    display: inline-block;
+    font-size: 2em;
+
+}
+.textf{
+    font-size: 2em;
+    color: #363799;
+
+}
+.menu-icon{
+    text-decoration: none;
+
+
+}

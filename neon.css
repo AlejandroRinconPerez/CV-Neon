@@ -61,7 +61,7 @@ div{
     white-space: nowrap; /* Evita que el texto se quiebre */
 }
 #a1:hover{
-    font-size: 5.3rem;
+    
     text-shadow: 0 0 3px #ffffff, 0 0 20px #00ccff, 0 0 30px #00ccff;
 }
 
@@ -106,14 +106,71 @@ div{
     left: 30%; /* Ajusta la posición horizontal */
     transform: translate(-50%, -50%) rotate(0deg); /* Rotación de 45 grados */
     font-size: 4rem;
-    color: #ff3403; /* Color neón verde */
-    text-shadow: 0 0 2px #ffffff, 0 0 20px #ff3403, 0 0 30px #ff3403;
+    color: #7b52dab0; /* Color neón verde */
+    text-shadow: 0 0 0px #ffffff, 0 0 20px #7b52dab0, 0 0 30px #7b52dab0;
     white-space: nowrap; /* Evita que el texto se quiebre */
 }
 #a4:hover{
    
     font-size: 5.3rem;
-    text-shadow: 0 0 2px #ffffff, 0 0 20px #ff3403, 0 0 30px #ff3403;
+    text-shadow: 0 0 2px #ffffff, 0 0 40px #7b52dab0, 0 0 40px #7b52dab0;
+
+
+}
+#a5{
+    position: absolute;
+    text-decoration: none;
+    top: 75%; /* Ajusta la posición vertical */
+    left: 70%; /* Ajusta la posición horizontal */
+    transform: translate(-50%, -50%) rotate(0deg); /* Rotación de 45 grados */
+    font-size: 4rem;
+    color: #00ccff; /* Color neón verde */
+    text-shadow: 0 0 0px #00ccff, 0 0 10px #00ccff, 0 0 10px #00ccff;
+    white-space: nowrap; /* Evita que el texto se quiebre */
+}
+#a5:hover{
+   
+    font-size: 5.3rem;
+    text-shadow: 0 0 3px #ffffff, 0 0 20px #00ccff, 0 0 30px #00ccff;
+
+
+}
+#a6{
+    position: absolute;
+    text-decoration: none;
+    top: 90%; /* Ajusta la posición vertical */
+    left: 30%; /* Ajusta la posición horizontal */
+    transform: translate(-50%, -50%) rotate(0deg); /* Rotación de 45 grados */
+    font-size: 4rem;
+    color: #00ccff; /* Color neón verde */
+    text-shadow: 0 0 0px #00ccff, 0 0 10px #00ccff, 0 0 10px #00ccff;
+    white-space: nowrap; /* Evita que el texto se quiebre */
+}
+#a6:hover{
+   
+    font-size: 5.3rem;
+    text-shadow: 0 0 3px #ffffff, 0 0 20px #00ccff, 0 0 30px #00ccff;
+
+
+}
+
+
+
+#a7{
+    position: absolute;
+    text-decoration: none;
+    top: 90%; /* Ajusta la posición vertical */
+    left: 70%; /* Ajusta la posición horizontal */
+    transform: translate(-50%, -50%) rotate(0deg); /* Rotación de 45 grados */
+    font-size: 4rem;
+    color: #ff33ee; /* Color neón verde */
+    text-shadow: 0 0 2px #ffffff, 0 0 20px #ff33ee, 0 0 30px #ff33ee;
+    white-space: nowrap; /* Evita que el texto se quiebre */
+}
+#a7:hover{
+   
+    font-size: 5.3rem;
+    text-shadow: 0 0 2px #ffffff, 0 0 20px #ff33ee, 0 0 30px #ff33ee;
 
 
 }
