@@ -184,3 +184,42 @@ div{
 
 
 }
+
+@media(max-width:720px){
+
+#a2{
+    top: 55%; /* Ajusta la posición vertical */
+    left: 50%; /* Ajusta la posición horizontal */
+}
+#a3{
+    top: 65%; /* Ajusta la posición vertical */
+    left: 50%; /* Ajusta la posición horizontal */
+}
+#a4{
+    top: 72%; /* Ajusta la posición vertical */
+    left: 50%; /* Ajusta la posición horizontal */
+}
+#a5{
+    top: 77%; /* Ajusta la posición vertical */
+    left: 50%; /* Ajusta la posición horizontal */
+}
+#a6{
+    top: 85%; /* Ajusta la posición vertical */
+    left: 50%; /* Ajusta la posición horizontal */
+}
+#a7{
+    top: 90%; /* Ajusta la posición vertical */
+    left: 50%; /* Ajusta la posición horizontal */
+}
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -531,9 +531,12 @@ em{font-weight: bolder;
     .prouectp_python{
         display: grid;
         grid-template-areas: 
-        "py1 py2"
-        "py3 py4"
-        "py5 py6";
+        "py1"
+        "py3 "
+        "py5"
+        "py2"
+        "py4"
+        "py6";
         
     }
     .container_estu{
