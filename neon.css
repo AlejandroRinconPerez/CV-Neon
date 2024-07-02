@@ -59,11 +59,15 @@ div{
     color: #00ccff; /* Color neón verde */
     text-shadow: 0 0 0px #00ccff, 0 0 10px #00ccff, 0 0 10px #00ccff;
     white-space: nowrap; /* Evita que el texto se quiebre */
+    transition: 1s ease;
 }
+
+
 #a1:hover{
     
     text-shadow: 0 0 3px #ffffff, 0 0 20px #00ccff, 0 0 30px #00ccff;
 }
+
 
 #a2{
     position: absolute;
@@ -75,6 +79,7 @@ div{
     color: #ff33ee; /* Color neón verde */
     text-shadow: 0 0 0px #ffffff, 0 0 20px #ff33ee, 0 0 30px #ff33ee;
     white-space: nowrap; /* Evita que el texto se quiebre */
+    transition: 0.3s ease;
 }
 #a2:hover{
     font-size: 5rem;
@@ -91,6 +96,7 @@ div{
     color: #a760ff; /* Color neón verde */
     text-shadow: 0 0 2px #ffffff, 0 0 20px #a760ff, 0 0 30px #a760ff;
     white-space: nowrap; /* Evita que el texto se quiebre */
+    transition: 0.3s ease;
 }
 #a3:hover{
    
@@ -109,6 +115,7 @@ div{
     color: #7b52dab0; /* Color neón verde */
     text-shadow: 0 0 0px #ffffff, 0 0 20px #7b52dab0, 0 0 30px #7b52dab0;
     white-space: nowrap; /* Evita que el texto se quiebre */
+    transition: 0.3s ease;
 }
 #a4:hover{
    
@@ -127,6 +134,7 @@ div{
     color: #00ccff; /* Color neón verde */
     text-shadow: 0 0 0px #00ccff, 0 0 10px #00ccff, 0 0 10px #00ccff;
     white-space: nowrap; /* Evita que el texto se quiebre */
+    transition: 0.3s ease;
 }
 #a5:hover{
    
@@ -145,6 +153,7 @@ div{
     color: #00ccff; /* Color neón verde */
     text-shadow: 0 0 0px #00ccff, 0 0 10px #00ccff, 0 0 10px #00ccff;
     white-space: nowrap; /* Evita que el texto se quiebre */
+    transition: 0.3s ease;
 }
 #a6:hover{
    
@@ -166,6 +175,7 @@ div{
     color: #ff33ee; /* Color neón verde */
     text-shadow: 0 0 2px #ffffff, 0 0 20px #ff33ee, 0 0 30px #ff33ee;
     white-space: nowrap; /* Evita que el texto se quiebre */
+    transition: 0.3s ease;
 }
 #a7:hover{
    

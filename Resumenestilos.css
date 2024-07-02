@@ -22,13 +22,13 @@ body{
 
 }
 .container{ 
-    position:relative;
+    position:fixed;
     width: 100%;
-    height: auto;
+    height: 100vh;
     overflow: hidden;
     text-align: center;
+    z-index: -2;
 
-    
 }
 .burbujas{
     position: relative;
