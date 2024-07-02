@@ -206,7 +206,8 @@ h3{
     box-shadow:0 0 0 10px #04054244, 0 0 50px #040542, 0 0 50px  #040542; 
     border-radius: 10px;
     display: flex;
-    justify-content:space-between;
+    justify-content: center;
+    align-items: center;
     background-color: #121e3080;
     
 
@@ -277,7 +278,7 @@ em{font-weight: bolder;
     border-radius: 10px;
     margin: auto;
     background: linear-gradient(to bottom, #040542, #04054244);
-    height: 410px;
+    
 
 }
 .cont_exp2{
@@ -289,7 +290,8 @@ em{font-weight: bolder;
     border-radius: 10px;
     margin: auto;
     background: linear-gradient(to bottom, #040542, #04054244);
-    height: 430px;
+    
+    
 }
 
 .cont_exp3{
@@ -301,11 +303,19 @@ em{font-weight: bolder;
     border-radius: 10px;
     margin: auto;
     background: linear-gradient(to bottom, #040542, #04054244);
-    height: 400px;
+    
 
 }
 
 /* logotipos */
+
+
+.conthab{
+    grid-area:habilidades ;
+
+
+
+}
 
 .image_hab{
     background-image: url(https://media.istockphoto.com/id/457551271/es/foto/pared-de-ladrillos.webp?b=1&s=170667a&w=0&k=20&c=_ZAIZQyvKDxbGKIJG9z1bBoPQmn-9OR3d2cotAmDtR0=);
@@ -509,6 +519,49 @@ em{font-weight: bolder;
 }
 .menu-icon{
     text-decoration: none;
+    
 
 
+}
+
+/* responsive */
+@media(max-width:720px){
+
+    .prouectp_python{
+        display: grid;
+        grid-template-areas: 
+        "py1 py2"
+        "py3 py4"
+        "py5 py6";
+        
+    }
+    .container_estu{
+        display: grid;
+        grid-template-areas:
+        "head"
+        "est1"
+        "est2"
+        "est3";
+        
+}
+
+    .container_expe{
+        display:grid;
+        grid-template-areas:
+        "head"
+        "exp1"
+        "exp2"  
+        "exp3";
+}
+.resume{
+    width: 80%;
+    border: 1px solid #0c192c50;
+    box-shadow:0 0 0 10px #04054244, 0 0 50px #040542, 0 0 50px  #040542; 
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    background-color: #121e3080;
+}
 }
