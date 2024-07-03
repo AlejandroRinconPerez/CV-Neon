@@ -9,7 +9,15 @@ body{
     width: 100vw;
     height: 100vh;
 }
+strong{
+    font-weight: normal;
+}
 
+u{
+ text-decoration: none;
+
+
+}
 section{
     margin: auto;
     text-align: center;
