@@ -46,7 +46,7 @@ body{
     margin:0 3px;
     border-radius: 50%;
     box-shadow: 0 0 0 10px #4fc3dc44, 0 0 50px #4fc3dc, 0 0 50px  #4fc3dc; 
-    animation: animate 15s linear infinite; 
+    animation: animate 15s alternate infinite; 
     animation-duration: calc(90s / var(--i));
 }
 .burbu_spam1 {
@@ -81,7 +81,7 @@ body{
     0 0 50px #11755c, 
     0 0 50px  #11755c;
     border-radius: 50%;
-    animation: animate 15s linear infinite;
+    animation: animate 15s alternate infinite;
     animation-duration: calc(60s / var(--i));
 }
 
