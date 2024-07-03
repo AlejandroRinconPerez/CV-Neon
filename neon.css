@@ -6,6 +6,8 @@ body{
     background-attachment: fixed;
     font-size: 10px;
     font-family:Neon;
+    width: 100vw;
+    height: 100vh;
 }
 
 section{
@@ -185,33 +187,62 @@ div{
 
 }
 
-@media(max-width:720px){
+@media(max-width:1000px){
 
 #a2{
-    top: 55%; /* Ajusta la posición vertical */
+    top: 45%; /* Ajusta la posición vertical */
     left: 50%; /* Ajusta la posición horizontal */
+    font-size: 2rem;
+
 }
 #a3{
-    top: 65%; /* Ajusta la posición vertical */
+    top: 50%; /* Ajusta la posición vertical */
     left: 50%; /* Ajusta la posición horizontal */
+    font-size: 2rem;
 }
 #a4{
-    top: 72%; /* Ajusta la posición vertical */
+    top: 55%; /* Ajusta la posición vertical */
     left: 50%; /* Ajusta la posición horizontal */
+    font-size: 2rem;
 }
 #a5{
-    top: 77%; /* Ajusta la posición vertical */
+    top: 60%; /* Ajusta la posición vertical */
     left: 50%; /* Ajusta la posición horizontal */
+    font-size: 2rem;
 }
 #a6{
-    top: 85%; /* Ajusta la posición vertical */
+    top: 65%; /* Ajusta la posición vertical */
     left: 50%; /* Ajusta la posición horizontal */
+    font-size: 2rem;
 }
 #a7{
-    top: 90%; /* Ajusta la posición vertical */
+    top: 70%; /* Ajusta la posición vertical */
+    left: 50%;/* Ajusta la posición horizontal */
+    font-size: 2rem;
+}
+
+#Titulo{
+    top: 19%; /* Ajusta la posición vertical */
+    left: 50%; /* Ajusta la posición horizontal */
+    font-size: 2.5rem;
+}
+
+
+#Titulo1{
+    font-size: 3rem;
+    top: 10%; /* Ajusta la posición vertical */
     left: 50%; /* Ajusta la posición horizontal */
 }
 
+
+
+#a1{
+    position: absolute;
+    top: 30%; /* Ajusta la posición vertical */
+    left: 50%; /* Ajusta la posición horizontal */
+    font-size: 2.5rem;
+  
+}
 
 
 
