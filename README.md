@@ -32,7 +32,7 @@
 
 ---
 
-## 📍 Overview
+## 📍 Descripción
 
 Este proyecto es un Currículum Vitae (CV) virtual, diseñado para mostrar tus estudios y resumen profesional de una manera atractiva y accesible. El CV virtual ha sido desarrollado utilizando HTML y CSS, garantizando un diseño limpio y profesional.
 
@@ -109,7 +109,12 @@ git clone https://github.com/AlejandroRinconPerez/CV-Practica
 Link CV (https://alejandrorinconperez.github.io/CV-Practica//cvneon.html)
 
 > [!NOTE]
-> No Es posible la colaborativo ya que es un producto personal y académico
+> No Es posible la colaboración ya que es un producto personal y académico
+
+
+
+
+
 
 
 
