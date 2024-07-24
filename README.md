@@ -26,9 +26,9 @@
 | Indice | Titulo  |
 |--|--|
 | 📍 | Descripción |
-| 📦 | Contenido |
+| 📦 | Caracteristicas |
 | 🧩 | Contribuciones |
-| 🤝 |licencias |
+| 🤝 |Visualizacion |
 
 ---
 
@@ -36,7 +36,7 @@
 
 Este proyecto es un Currículum Vitae (CV) virtual, diseñado para mostrar tus estudios y resumen profesional de una manera atractiva y accesible. El CV virtual ha sido desarrollado utilizando HTML y CSS, garantizando un diseño limpio y profesional.
 
-## Características
+## 🤝 Características
 
 -   **Sección de estudios**: Detalla tu formación académica, incluyendo títulos obtenidos, instituciones educativas y fechas relevantes.
 -   **Resumen profesional**: Proporciona una visión general de tu experiencia laboral, habilidades y logros profesionales.
@@ -44,7 +44,7 @@ Este proyecto es un Currículum Vitae (CV) virtual, diseñado para mostrar tus e
 -   **Interfaz intuitiva**: Navegación fácil y clara para que los visitantes puedan encontrar rápidamente la información que buscan.
 ---
 
-## Tecnologías utilizadas
+## 🧪 Tecnologías utilizadas
 
 -   **HTML**: Estructura del contenido del CV.
 -   **CSS**: Estilos visuales y diseño del CV.
